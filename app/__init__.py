@@ -1,14 +1,9 @@
-"""
-    Create by waspvae on 2018/6/30 
-"""
 from flask import Flask
 
 from app.models.base import db
 
 from flask_login import LoginManager
 from flask_mail import Mail
-
-__author__ = 'waspvae'
 
 login_manager = LoginManager()
 mail = Mail()
