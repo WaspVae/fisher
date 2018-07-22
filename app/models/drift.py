@@ -24,7 +24,6 @@ class Drift(Base):
     # 请求者信息
     requester_id = Column(Integer)
     requester_nickname = Column(String(20))
-    # 十一月
 
     # 赠送者信息
     gifter_id = Column(Integer)
@@ -41,7 +40,4 @@ class Drift(Base):
     def pending(self, status):
         self._pending = status.value
 
-    # requester_id = Column(Integer, ForeignKey('user.id'))
-    # requester = relationship('User')
-    # gift_id = Column(Integer, ForeignKey('gift.id'))
-    # gift = relationship('Gift')
+    
