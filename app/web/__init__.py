@@ -4,12 +4,12 @@ from flask import render_template
 web = Blueprint('web', __name__)
 
 
-@web.errorhandler(404)
+@web.app_errorhandler(404)
 def handle404(e):
     return render_template('404.html')
 
 
-@web.errorhandler(500)
+@web.app_errorhandler(500)
 def handle500(e):
     return render_template('500.html')
 
