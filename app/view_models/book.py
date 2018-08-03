@@ -1,9 +1,3 @@
-"""
- Created by 七月 on 2018-2-24.
-"""
-__author__ = '七月'
-
-
 class BookViewModel:
     def __init__(self, book):
         self.title = book['title']
