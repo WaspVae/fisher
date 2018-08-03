@@ -1,11 +1,3 @@
-"""
- Created by 七月 on 2018-4-16.
-"""
-from app.libs.enums import PendingStatus
-
-__author__ = '七月'
-
-
 class DriftCollection:
     def __init__(self, drifts, current_user_id):
         self.data = []
