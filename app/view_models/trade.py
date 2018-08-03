@@ -1,9 +1,4 @@
-"""
- Created by 七月 on 2018-3-18.
-"""
 from app.view_models.book import BookViewModel
-
-__author__ = '七月'
 
 
 # GiftOrWish
